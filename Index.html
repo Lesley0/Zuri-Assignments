@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Registration Form</title>
+</head>
+
+<body>
+
+  <form action="login.html">
+    <h1 class="heading" id="heading test">Signup Form</h1>
+
+
+    <div class="container">
+
+      <label for="Fname">First Name:</label>
+      <input type="text"  placeholder="Enter First Name" name=Fname id="Fname" required> <br></br>
+      
+      <label
+        for="Lname">Last Name:</label>
+      <input type="text" placeholder="Enter Last Name" name=Lname id="Lname" required> <br></br>
+      <label
+        for="pnumber">Phone Number:</label>
+      <input type="number" placeholder="Enter Phone number" name="pnumber" pattern="{+234}" required> <br></br>
+
+      <label for="email">Email:</label>
+      <input type="email" placeholder="Enter Email" name="email" required> <br></br>
+
+
+
+      <label for="Gender"> Gender:</label>
+      <select name="gender" required>
+
+        <option value="none selected">Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+
+
+      </select> <br></br>
+
+
+      <label for="dob"> Date of birth:</label>
+      <input type="date" name="dob" id="date of birth" required> <br></br>
+
+
+
+      <label for="colorpicker"> Favorite Color:</label>
+      <input type="color" id="corlorpicker" value="#0000ff" required> <br></br>
+
+
+      <button type="submit"> Sign Up </button> <br></br>
+      <p> By clicking this button, you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy
+          Policies</a></p> <br></br>
+
+
+      <footer>
+        <p>
+          Already have an account? <a href="./login.html"> Login Here</a>
+        </p>
+      </footer>
+
+      </table>
+  </form>
+</body>
+
+</html>
